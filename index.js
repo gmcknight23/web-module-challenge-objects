@@ -77,11 +77,13 @@ const reviews = [
     {name: "Reyna", rating: 3.5, feedback: ""},
 ]
 
+
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Using the reviews array above:
   1. log only Julius' feedback to the console - no function needed 
 */
 
+console.log('task 3', reviews[5].feedback);
 
 
 
@@ -92,7 +94,9 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
 */
 
 
+reviews[7].feedback = "this place is chill with really cool people, great for getting work done on weekdays"
 
+console.log('task 4', reviews);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
